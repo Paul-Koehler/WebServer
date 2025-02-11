@@ -1,0 +1,35 @@
+{
+  "Settings": {
+    "RemainingBatteryTime": {
+      "Solar": {
+        "lat": 48.03,
+        "lon": 11.92,
+        "dec": 30,
+        "az": 30,
+        "kwp": 15,
+        "damping": 0,
+        "damping_morning": "NaN",
+        "damping_evening": "NaN",
+        "inverter": 10,
+        "horizon": "NaN"
+      },
+      "Other": {
+        "battcapacity": 7800,
+        "consumptionWh": 11200
+      }
+    },
+    "Tibber_future": {
+      "api_key": "2r1ArrH-IeD8luO28gAK7QyDkhqy5vKhGAmtQERgV_s"
+    },
+    "MQTT": {
+      "hostname": "192.168.178.2",
+      "port": 1883,
+      "auth": {
+        "username": "user1",
+        "password": "password"
+      },
+      "topic": "smart_charging"
+    }
+
+  }
+}
